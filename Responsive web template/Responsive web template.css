@@ -1,0 +1,178 @@
+.container{
+  margin-top:2rem;
+  display:grid;
+  grid-template-columns:auto auto auto;
+  justify-content:center;
+  align-items:center;
+  row-gap:2rem;
+  column-gap:1rem;
+}
+@media(max-device-width:900px){
+  .container{
+    display:grid;
+    grid-template-columns:auto auto;
+    row-gap:1rem;
+    column-gap:1rem;
+  }
+}
+@media(max-device-width:600px){
+  .container{
+    display:grid;
+    grid-template-columns:auto;
+    row-gap:1rem;
+    column-gap:1rem;
+  }
+}
+h1{
+  font-size:3rem;
+  margin-top:2rem;
+  text-align:center;
+}
+.carousel-caption{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.carousel-caption h5{
+  font-size:3rem;
+}
+.booking{
+  margin-top:2rem;
+  position:relative;
+  width:100%;
+  height:25rem;
+  background-image:url("travelling2-min.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.booking .container2{
+  text-align:center;
+  font-size:3rem;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.container3{
+  margin-top:2rem;
+}
+.services{
+  padding:2rem;
+  width:100%;
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+  row-gap:2rem;
+  column-gap:2rem;
+  justify-content:center;
+  align-items:center;
+}
+h2{
+  text-align:center;
+}
+.div{
+  margin:1rem;
+  padding:1rem;
+  text-align:center;
+}
+.fas{
+  font-size:3rem;
+  margin-bottom:2rem;
+}
+@media (max-device-width:750px){
+  .services{
+      grid-template-columns:auto auto;
+      row-gap:1rem;
+      column-gap:1rem;
+  }
+}
+.test-heading{
+  text-align:center;
+  background-color:#f8faf5;
+}
+.testimony{
+  background-color:#f8faf5;
+  display:grid;
+  grid-template-columns:auto auto auto;
+  column-gap:2rem;
+  justify-content:center;;
+  align-items:center;
+}
+.customers{
+  text-align:center;
+}
+.img{
+  border-radius:50%;
+  height:50px;
+  width:50px;
+}
+@media (max-device-width:580px){
+  .testimony{
+    background-color:#f8faf5;
+    display:grid;
+    grid-template-columns:auto auto;
+    column-gap:1rem;
+    justify-content:center;;
+    align-items:center;
+  }
+}
+footer{
+  width:100%;
+  height:30rem;
+  background-color:#0d1e36;
+}
+.foot{
+  position:relative;
+  top:30%;
+  text-align:center;
+  color:white;
+  width:100%;
+  height:25rem;
+  background-color:#0d1e36;
+}
+.ftext{
+  font-size:1rem;
+}
+.icons{
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+  justify-content:center;
+}
+#fb{
+  font-size:3rem;
+  padding:2rem;
+  border-radius:50%
+  border:1px solid white;
+}
+#insta{
+  font-size:3rem;
+  padding:2rem;
+  border-radius:50%
+  border:1px solid white;
+}
+#twit{
+  font-size:3rem;
+  padding:2rem;
+  border-radius:50%
+  border:1px solid white;
+}
+#yt{
+  font-size:3rem;
+padding:2rem;
+  border-radius:50%
+  border:1px solid white;
+}
+@media(max-device-width:370px){
+  .icons{
+    display:grid;
+    grid-template-columns:auto;
+    }
+    .foot{
+      position:relative;
+      top:10%;
+    }
+    footer{
+      height:50rem;
+    }
+}
